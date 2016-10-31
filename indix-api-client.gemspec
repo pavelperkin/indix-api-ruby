@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/models.rb", "lib/exceptions.rb", "lib/http_client.rb", "lib/indix_api_client.rb"]
   s.homepage    = 'http://indix.com'
   s.license     = 'MIT'
-	s.add_runtime_dependency 'rest-client',  '~>1.8' 
+	s.add_runtime_dependency 'rest-client',  '> 1.8' 
 	s.add_runtime_dependency 'activesupport', '~>5.0'
 	s.add_runtime_dependency 'hashie', '~>3.0'
   s.add_development_dependency 'rspec', '~>3.4.0'
